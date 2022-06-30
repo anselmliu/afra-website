@@ -24,6 +24,7 @@ body,html{
     min-height: 90vh;
     max-height: 90vh;
     margin: auto;
+    display: block;
 }
 
 #menu{
