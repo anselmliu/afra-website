@@ -1,0 +1,164 @@
+body,html{
+    margin:0;
+    height:100%;
+}
+
+#navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+#title{
+    padding:15px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Courier Prime';
+    color:black;
+}
+
+#image{
+    padding-top:75px;
+    content: url('rachel.jpg');
+    min-height: 90vh;
+    max-height: 90vh;
+    margin: auto;
+}
+
+#menu{
+    min-height: 500px;
+    background-color: white;
+}
+
+#season{
+    padding: 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier Prime';
+    text-decoration: underline;
+}
+
+#mission{
+    padding: 15px;
+    font-size: x-large;
+    font-family: 'Courier Prime';
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+#playcontainer{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    min-width: 90vw;
+}
+
+#col1, #col2{
+    margin: 15px;
+}
+
+.play{
+    background-color: azure;
+    border-radius: 15px;
+    max-width: 40vw;
+    border:1px solid black;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+    margin-top:15px;
+}
+
+.playauthor{
+    margin:15px;
+    font-size: larger;
+    font-family: 'Courier Prime';
+    max-width: 45vw;
+    text-align: center;
+}
+
+.playimgrachel{
+    padding-top: 10px;
+    margin:auto;
+    display: block;
+    max-width: 40vw;
+    content: url('rachel-1.jpg');
+}
+
+.playimgblueblood{
+    padding-top: 10px;
+    margin:auto;
+    display: block;
+    max-width: 40vw;
+    min-width: 40vw;
+    content: url('Georgia_Douglas_Johnson.jpg');
+}
+
+.playimgcolorstruck{
+    padding-top: 10px;
+    margin:auto;
+    display: block;
+    max-width: 40vw;
+    content: url('colorstruck.jpg');
+}
+
+.playimghotstuff{
+    padding-top: 10px;
+    margin:auto;
+    display: block;
+    max-width: 40vw;
+    min-width: 40vw;
+    content: url('Eulalie_Spence.jpg');
+}
+
+.playimgeclipsed{
+    padding-top: 10px;
+    margin:auto;
+    display: block;
+    max-width: 40vw;
+    min-width: 40vw;
+    content: url('eclipsed.webp');
+}
+
+.playimgthelight{
+    padding-top: 10px;
+    margin:auto;
+    display: block;
+    max-width: 40vw;
+    min-width: 40vw;
+    content: url('thelight.jpg');
+}
+
+.playid{
+    margin:15px;
+    font-size: x-large;
+    font-family: 'Courier Prime';
+    text-decoration: underline;
+    max-width: 45vw;
+    text-align: center;
+}
+
+.playsummary{
+    max-width: 45vw;
+    margin:15px;
+    font-size: larger;
+    font-family: 'Courier Prime';
+    text-align: center;
+
+}
+
+#imgsrc{
+    max-width: 45vw;
+    margin:15px;
+    font-family: 'Courier Prime';
+    text-align: center;
+
+}
+
+#name{
+    padding: 15px;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Courier Prime';
+}
